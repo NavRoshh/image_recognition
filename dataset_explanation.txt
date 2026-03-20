@@ -1,0 +1,18 @@
+## Dataset Preparation
+
+We collected images for two personalities: Ryan Reynolds and Justin Bieber.
+
+For each person, 25 images were collected from online sources such as Google Images and public websites.
+
+The images were selected carefully to ensure:
+- Clear face visibility
+- Different angles, lighting conditions, and expressions
+- No duplicate or blurry images
+
+The dataset was split into:
+- Training set: 20 images per person
+- Validation set: 5 images per person
+
+All images were resized to 224x224 pixels during preprocessing.
+
+The dataset was organized into separate folders for each personality to enable efficient training using ImageDataGenerator.
